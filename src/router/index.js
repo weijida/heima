@@ -12,17 +12,17 @@ const routes = [
     redirect: '/home'
   },
 
+  // 登录页的一级路由
+  {
+    path: '/login',
+    component: login
+  },
+  // 主页一级路由
   {
     path: '/home',
     name: 'home',
     component: Home
-  },
-  {
-    path: '/login',
-    name: 'login',
-    component: login
   }
-
   // {
   //   path: '/about',
   //   name: 'about',

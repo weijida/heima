@@ -1,4 +1,5 @@
 <template>
+<!-- 一级路由容器里面放的一级路由组件  -->
     <router-view/>
 </template>
 
